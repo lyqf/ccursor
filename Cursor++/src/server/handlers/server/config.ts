@@ -15,14 +15,30 @@
  *   - agentLayoutPolicy: Agent 布局允许/禁止的 action IDs
  *   - currentInAppAd: 应用内广告 (InAppAdService 用)
  *   - onboardingConfig: 新用户引导配置
+ *   - http2Config: 强制客户端禁用 HTTP/2 (BYOK 服务器只讲 HTTP/1.1)
  */
 
+import { Http2Config } from '../../gen/aiserver_v1_pb';
 import { config } from '../../runtime-config';
 
 export function buildServerConfig() {
     const byokUrl = `http://${config.server.host}:${config.server.port}`;
 
     return {
+        /**
+         * 必须显式返回 FORCE_ALL_DISABLED —— 留空(UNSPECIFIED)会让客户端回落到
+         * 本地设置 cursor.general.disableHttp2 (默认 false),agent 传输就走 HTTP/2。
+         *
+         * cursor-always-local 的 AiConnectTransportHandler.setup() 里, agent 那条是
+         * `useHttp2: !n` —— 唯独它没有 `.cursor.sh` 判断 (repo/cpp/cmdk 都有), 所以
+         * baseUrl 指向 127.0.0.1 也照样发 HTTP/2, 撞上只讲 HTTP/1.1 的 BYOK 服务器
+         * → ERR_HTTP2_ERROR "Protocol error"。BYOK 的 HTTP/1.1 路由器
+         * (installer/src/node-http11-router.js) 只 patch http/https, 拦不住 http2。
+         *
+         * 判定式: n = (http2Config===FORCE_ALL_DISABLED || ===FORCE_BIDI_DISABLED ||
+         *              (非 FORCE_*_ENABLED && host.isHttp2Disabled()))
+         */
+        http2Config: Http2Config.FORCE_ALL_DISABLED,
         bugConfigResponse: {
             bugBotV1: { backgroundCallFrequencyMs: 3600000 },
         },

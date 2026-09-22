@@ -19,7 +19,6 @@
 import { existsSync, mkdirSync, writeFileSync, copyFileSync, readFileSync } from 'fs';
 import { execFileSync } from 'child_process';
 import { join } from 'path';
-import { homedir } from 'os';
 import {
   MODELS_CATALOG_FILE_NAME,
   PROVIDERS_FILE_NAME,
@@ -32,19 +31,10 @@ import {
   DEFAULT_REDIRECT,
 } from './defaults.js';
 import { CCURSOR_DIR } from './routes.js';
+import { getCursorUserDir } from './cursor-settings.js';
 
 function getCursorStateDbPath() {
-  const home = homedir();
-  switch (process.platform) {
-    case 'darwin':
-      return join(home, 'Library', 'Application Support', 'Cursor', 'User', 'globalStorage', 'state.vscdb');
-    case 'win32':
-      return join(process.env.APPDATA || join(home, 'AppData', 'Roaming'), 'Cursor', 'User', 'globalStorage', 'state.vscdb');
-    case 'linux':
-      return join(process.env.XDG_CONFIG_HOME || join(home, '.config'), 'Cursor', 'User', 'globalStorage', 'state.vscdb');
-    default:
-      return join(home, '.config', 'Cursor', 'User', 'globalStorage', 'state.vscdb');
-  }
+  return join(getCursorUserDir(), 'globalStorage', 'state.vscdb');
 }
 
 function detectByokMode(log) {

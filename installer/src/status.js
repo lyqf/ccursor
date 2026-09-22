@@ -12,6 +12,7 @@ import { needsProxy39Patch, isProxy39Patched, getProxy39Target } from './patch-p
 import { inspectAlwaysLocalPatch } from './patch-always-local.js';
 import { getAgentHostBackupTargets, inspectAgentHostPatch } from './patch-agent-host.js';
 import { isInjectPatched } from './patch-inject.js';
+import { isHttp2DisabledSet } from './cursor-settings.js';
 
 const ok = s => `\x1b[32m✓ ${s}\x1b[0m`;
 const fail = s => `\x1b[31m✗ ${s}\x1b[0m`;
@@ -100,6 +101,15 @@ export async function status() {
     console.log(isProxy39Patched(paths) ? ok('Cursor 3.9 singleton BYOK router/proxy patch active') : fail('Cursor 3.9 singleton BYOK router/proxy patch missing'));
   } else if (existsSync(getProxy39Target(paths))) {
     console.log(na('Cursor 3.9 singleton BYOK router/proxy patch not required'));
+  }
+
+  // Cursor 用户设置: agent 传输强制 HTTP/1.1
+  // 该项丢失会导致 "刚装好/刚重启就连不上" (客户端读服务端配置有启动竞态)
+  const http2 = isHttp2DisabledSet();
+  if (http2 === null) {
+    console.log(na('Cursor settings.json not found (未启动过?)'));
+  } else {
+    console.log(http2 ? ok('HTTP/1.1 forced (cursor.general.disableHttp2)') : fail('HTTP/1.1 not forced — 可能导致 agent 传输走 HTTP/2 连不上'));
   }
 
   // ~/.ccursor 资源

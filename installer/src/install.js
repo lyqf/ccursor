@@ -3,6 +3,7 @@
  *
  * 顺序：
  *   0. 定位 Cursor 安装目录 + 预检
+ *   0.5 Cursor 用户设置: cursor.general.disableHttp2 = true (早退前执行, 见下)
  *   1. 释放默认配置到 ~/.ccursor/
  *   2. 安装扩展到 extensions/cursor2plus/
  *   3. 注入 renderer hook (workbench.js)
@@ -23,6 +24,7 @@ import { patchKatex } from './patch-katex.js';
 import { patchProxy39, needsProxy39Patch, isProxy39Patched } from './patch-proxy-39.js';
 // delete-fix 已移除 — 3.2.11 原生 tombstoneDeletedComposer 已覆盖
 import { releaseDefaults } from './release-defaults.js';
+import { ensureHttp2Disabled } from './cursor-settings.js';
 
 const ok = msg => console.log(`\x1b[32m[OK]\x1b[0m ${msg}`);
 const info = msg => console.log(`\x1b[34m[>]\x1b[0m ${msg}`);
@@ -44,6 +46,11 @@ export async function install() {
   }
   info(`Cursor: ${paths.appRoot}`);
   info(`Version: ${paths.cursorVersion}${paths.hasGlass ? ' (glass)' : ''}`);
+
+  // 0.5 Cursor 用户设置: 强制 agent 传输走 HTTP/1.1
+  //     放在"已完整安装"早退之前 —— 该设置会被 Cursor 写回内存副本时冲掉,
+  //     此时扩展和补丁都在、只有设置丢了, 重跑 install 必须能补上。
+  ensureHttp2Disabled(info);
 
   const extInstalled = isExtensionInstalled(paths);
   const desktopPatched = existsSync(paths.workbenchJs) && isInjectPatched(readFileSync(paths.workbenchJs, 'utf-8'));

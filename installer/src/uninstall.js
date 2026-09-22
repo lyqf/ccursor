@@ -17,6 +17,7 @@ import { findCursorPathsDetailed, formatDiagnostic } from './detect.js';
 import { restoreBackup } from './backup.js';
 import { removeExtension } from './extension-embed.js';
 import { getAgentHostBackupTargets } from './patch-agent-host.js';
+import { noteHttp2Setting } from './cursor-settings.js';
 
 const ok = msg => console.log(`\x1b[32m[OK]\x1b[0m ${msg}`);
 const info = msg => console.log(`\x1b[34m[>]\x1b[0m ${msg}`);
@@ -74,6 +75,10 @@ export async function uninstall() {
 
   // 6. 删除扩展
   removeExtension(paths, info);
+
+  // 7. Cursor 用户设置里的 disableHttp2 不还原 (理由见 cursor-settings.js),
+  //    仅提示, 让用户自行决定
+  noteHttp2Setting(info);
 
   console.log('');
   if (restored > 0) {

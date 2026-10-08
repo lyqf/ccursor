@@ -158,6 +158,7 @@ Requires **Cursor IDE** + **Node.js >= 18**.
 | Cannot sign in after install / 安装后无法登录 | Toggle BYOK OFF in sidebar, then sign in / 侧边栏切 OFF 后登录 |
 | Model not found / 模型未找到 | Add model in sidebar panel / 在面板中添加模型 |
 | LLM 401/403/404 | Check API key & base URL in providers.json / 检查密钥和地址 |
+| Agent 模式报 "An unexpected error occurred" | Cursor 的 agent 传输默认走 HTTP/2，与 BYOK 的 HTTP/1.1 服务器冲突。在 Cursor 的 `settings.json` 中添加 `"cursor.general.disableHttp2": true`，即时生效无需重启。安装器 ≥ 0.0.15 会自动写入此设置；若被更新覆盖，手动补回即可。 |
 
 ---
 

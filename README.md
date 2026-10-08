@@ -135,6 +135,7 @@ Requires **Cursor IDE** + **Node.js >= 18**.
 | Cannot sign in after install | Toggle BYOK OFF in sidebar panel, then sign in normally |
 | Model not found | Add the model in the sidebar panel or edit `~/.ccursor/providers.json` |
 | LLM 401/403/404 | Check API key and base URL in providers.json |
+| "An unexpected error occurred" in Agent mode | Cursor's agent transport defaults to HTTP/2, which conflicts with the BYOK HTTP/1.1 server. Add `"cursor.general.disableHttp2": true` to Cursor's `settings.json` — takes effect immediately, no restart needed. The installer (≥ 0.0.15) sets this automatically; if it was reset by an update, re-add it manually. |
 
 ---
 

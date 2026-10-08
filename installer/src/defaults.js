@@ -1084,8 +1084,8 @@ export const DEFAULT_PROVIDERS = {
         }
 ,
         {
-          "id": "claude-haiku-4-5",
-          "apiModel": "claude-haiku-4-5",
+          "id": "ghcp/claude-haiku-4-5",
+          "apiModel": "ghcp/claude-haiku-4-5",
           "displayName": "[Claude] Haiku 4.5",
           "thinking": false,
           "supportsAgent": true,
@@ -1095,8 +1095,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "DeepseekV3.2",
-          "apiModel": "DeepseekV3.2",
+          "id": "ppio/DeepseekV3.2",
+          "apiModel": "ppio/DeepseekV3.2",
           "displayName": "[DeepSeek] DeepSeek V3.2",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1107,8 +1107,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "doubao-seed-1-6-vision-250815",
-          "apiModel": "doubao-seed-1-6-vision-250815",
+          "id": "volcengine_maas/doubao-seed-1-6-vision-250815",
+          "apiModel": "volcengine_maas/doubao-seed-1-6-vision-250815",
           "displayName": "[Doubao] Seed 1.6 Vision",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1119,8 +1119,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "doubao-seed-1-8-251228",
-          "apiModel": "doubao-seed-1-8-251228",
+          "id": "volcengine_maas/doubao-seed-1-8-251228",
+          "apiModel": "volcengine_maas/doubao-seed-1-8-251228",
           "displayName": "[Doubao] Seed 1.8",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1131,8 +1131,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "doubao-seed-2-0-code-preview-260215",
-          "apiModel": "doubao-seed-2-0-code-preview-260215",
+          "id": "volcengine_maas/doubao-seed-2-0-code-preview-260215",
+          "apiModel": "volcengine_maas/doubao-seed-2-0-code-preview-260215",
           "displayName": "[Doubao] Seed 2.0 Code Preview",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1143,8 +1143,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "doubao-seed-2-0-lite-260215",
-          "apiModel": "doubao-seed-2-0-lite-260215",
+          "id": "volcengine_maas/doubao-seed-2-0-lite-260215",
+          "apiModel": "volcengine_maas/doubao-seed-2-0-lite-260215",
           "displayName": "[Doubao] Seed 2.0 Lite · 0215",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1155,8 +1155,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "doubao-seed-2-0-lite-260428",
-          "apiModel": "doubao-seed-2-0-lite-260428",
+          "id": "volcengine_maas/doubao-seed-2-0-lite-260428",
+          "apiModel": "volcengine_maas/doubao-seed-2-0-lite-260428",
           "displayName": "[Doubao] Seed 2.0 Lite · 0428",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1167,8 +1167,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "doubao-seed-2-0-mini-260215",
-          "apiModel": "doubao-seed-2-0-mini-260215",
+          "id": "volcengine_maas/doubao-seed-2-0-mini-260215",
+          "apiModel": "volcengine_maas/doubao-seed-2-0-mini-260215",
           "displayName": "[Doubao] Seed 2.0 Mini · 0215",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1179,8 +1179,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "doubao-seed-2-0-mini-260428",
-          "apiModel": "doubao-seed-2-0-mini-260428",
+          "id": "volcengine_maas/doubao-seed-2-0-mini-260428",
+          "apiModel": "volcengine_maas/doubao-seed-2-0-mini-260428",
           "displayName": "[Doubao] Seed 2.0 Mini · 0428",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1191,8 +1191,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "doubao-seed-2-0-pro-260215",
-          "apiModel": "doubao-seed-2-0-pro-260215",
+          "id": "volcengine_maas/doubao-seed-2-0-pro-260215",
+          "apiModel": "volcengine_maas/doubao-seed-2-0-pro-260215",
           "displayName": "[Doubao] Seed 2.0 Pro",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1203,8 +1203,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "doubao-seed-2-1-pro-260628",
-          "apiModel": "doubao-seed-2-1-pro-260628",
+          "id": "volcengine_maas/doubao-seed-2-1-pro-260628",
+          "apiModel": "volcengine_maas/doubao-seed-2-1-pro-260628",
           "displayName": "[Doubao] Seed 2.1 Pro",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1215,8 +1215,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "doubao-seed-2-1-turbo-260628",
-          "apiModel": "doubao-seed-2-1-turbo-260628",
+          "id": "volcengine_maas/doubao-seed-2-1-turbo-260628",
+          "apiModel": "volcengine_maas/doubao-seed-2-1-turbo-260628",
           "displayName": "[Doubao] Seed 2.1 Turbo",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1227,8 +1227,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "doubao-seed-evolving",
-          "apiModel": "doubao-seed-evolving",
+          "id": "volcengine_maas/doubao-seed-evolving",
+          "apiModel": "volcengine_maas/doubao-seed-evolving",
           "displayName": "[Doubao] Seed Evolving",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1239,8 +1239,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "gemini-2.5-flash",
-          "apiModel": "gemini-2.5-flash",
+          "id": "vertex_ai/gemini-2.5-flash",
+          "apiModel": "vertex_ai/gemini-2.5-flash",
           "displayName": "[Gemini] Gemini 2.5 Flash",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1251,8 +1251,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "gemini-2.5-flash-lite",
-          "apiModel": "gemini-2.5-flash-lite",
+          "id": "vertex_ai/gemini-2.5-flash-lite",
+          "apiModel": "vertex_ai/gemini-2.5-flash-lite",
           "displayName": "[Gemini] Gemini 2.5 Flash Lite",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1263,8 +1263,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "gemini-2.5-pro",
-          "apiModel": "gemini-2.5-pro",
+          "id": "vertex_ai/gemini-2.5-pro",
+          "apiModel": "vertex_ai/gemini-2.5-pro",
           "displayName": "[Gemini] Gemini 2.5 Pro",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1275,8 +1275,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "gemini-3.1-flash-lite",
-          "apiModel": "gemini-3.1-flash-lite",
+          "id": "vertex_ai/gemini-3.1-flash-lite",
+          "apiModel": "vertex_ai/gemini-3.1-flash-lite",
           "displayName": "[Gemini] Gemini 3.1 Flash Lite",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1287,8 +1287,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "gemini-3.1-pro-preview",
-          "apiModel": "gemini-3.1-pro-preview",
+          "id": "vertex_ai/gemini-3.1-pro-preview",
+          "apiModel": "vertex_ai/gemini-3.1-pro-preview",
           "displayName": "[Gemini] Gemini 3.1 Pro Preview",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1299,8 +1299,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "gemini-3.1-pro-preview-pt",
-          "apiModel": "gemini-3.1-pro-preview-pt",
+          "id": "vertex_ai/gemini-3.1-pro-preview-pt",
+          "apiModel": "vertex_ai/gemini-3.1-pro-preview-pt",
           "displayName": "[Gemini] Gemini 3.1 Pro Preview PT",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1311,8 +1311,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "gemini-3.5-flash",
-          "apiModel": "gemini-3.5-flash",
+          "id": "vertex_ai/gemini-3.5-flash",
+          "apiModel": "vertex_ai/gemini-3.5-flash",
           "displayName": "[Gemini] Gemini 3.5 Flash",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1323,8 +1323,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "gemini-3.5-flash-lite",
-          "apiModel": "gemini-3.5-flash-lite",
+          "id": "vertex_ai/gemini-3.5-flash-lite",
+          "apiModel": "vertex_ai/gemini-3.5-flash-lite",
           "displayName": "[Gemini] Gemini 3.5 Flash Lite",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1335,8 +1335,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "gemini-3.6-flash",
-          "apiModel": "gemini-3.6-flash",
+          "id": "vertex_ai/gemini-3.6-flash",
+          "apiModel": "vertex_ai/gemini-3.6-flash",
           "displayName": "[Gemini] Gemini 3.6 Flash",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1347,8 +1347,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "gemini-3-flash-preview",
-          "apiModel": "gemini-3-flash-preview",
+          "id": "vertex_ai/gemini-3-flash-preview",
+          "apiModel": "vertex_ai/gemini-3-flash-preview",
           "displayName": "[Gemini] Gemini 3 Flash Preview",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1359,8 +1359,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "glm-4.1v-thinking-flash",
-          "apiModel": "glm-4.1v-thinking-flash",
+          "id": "zhipuai/glm-4.1v-thinking-flash",
+          "apiModel": "zhipuai/glm-4.1v-thinking-flash",
           "displayName": "[GLM] GLM-4.1V Thinking Flash",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1371,8 +1371,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "glm-4.5",
-          "apiModel": "glm-4.5",
+          "id": "zhipuai/glm-4.5",
+          "apiModel": "zhipuai/glm-4.5",
           "displayName": "[GLM] GLM-4.5",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1383,8 +1383,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "glm-4.5-flash",
-          "apiModel": "glm-4.5-flash",
+          "id": "zhipuai/glm-4.5-flash",
+          "apiModel": "zhipuai/glm-4.5-flash",
           "displayName": "[GLM] GLM-4.5 Flash",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1395,8 +1395,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "glm-4.5v",
-          "apiModel": "glm-4.5v",
+          "id": "zhipuai/glm-4.5v",
+          "apiModel": "zhipuai/glm-4.5v",
           "displayName": "[GLM] GLM-4.5V",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1407,8 +1407,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "glm-4.6",
-          "apiModel": "glm-4.6",
+          "id": "zhipuai/glm-4.6",
+          "apiModel": "zhipuai/glm-4.6",
           "displayName": "[GLM] GLM-4.6",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1419,8 +1419,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "glm-4.6v",
-          "apiModel": "glm-4.6v",
+          "id": "zhipuai/glm-4.6v",
+          "apiModel": "zhipuai/glm-4.6v",
           "displayName": "[GLM] GLM-4.6V",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1431,8 +1431,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "glm-4.7",
-          "apiModel": "glm-4.7",
+          "id": "zhipuai/glm-4.7",
+          "apiModel": "zhipuai/glm-4.7",
           "displayName": "[GLM] GLM-4.7",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1443,8 +1443,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "glm-4-air-250414",
-          "apiModel": "glm-4-air-250414",
+          "id": "zhipuai/glm-4-air-250414",
+          "apiModel": "zhipuai/glm-4-air-250414",
           "displayName": "[GLM] GLM-4 Air",
           "thinking": false,
           "supportsAgent": true,
@@ -1454,8 +1454,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "glm-5",
-          "apiModel": "glm-5",
+          "id": "zhipuai/glm-5",
+          "apiModel": "zhipuai/glm-5",
           "displayName": "[GLM] GLM-5",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1466,8 +1466,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "glm-5.1",
-          "apiModel": "glm-5.1",
+          "id": "zhipuai/glm-5.1",
+          "apiModel": "zhipuai/glm-5.1",
           "displayName": "[GLM] GLM-5.1",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1478,8 +1478,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "glm-5.2",
-          "apiModel": "glm-5.2",
+          "id": "zhipuai/glm-5.2",
+          "apiModel": "zhipuai/glm-5.2",
           "displayName": "[GLM] GLM-5.2",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1490,8 +1490,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "glm-5.3",
-          "apiModel": "glm-5.3",
+          "id": "zhipuai/glm-5.3",
+          "apiModel": "zhipuai/glm-5.3",
           "displayName": "[GLM] GLM-5.3",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1502,8 +1502,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "glm-5.3-flash",
-          "apiModel": "glm-5.3-flash",
+          "id": "zhipuai/glm-5.3-flash",
+          "apiModel": "zhipuai/glm-5.3-flash",
           "displayName": "[GLM] GLM-5.3 Flash",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1514,8 +1514,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "glm-5-turbo",
-          "apiModel": "glm-5-turbo",
+          "id": "zhipuai/glm-5-turbo",
+          "apiModel": "zhipuai/glm-5-turbo",
           "displayName": "[GLM] GLM-5 Turbo",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1526,8 +1526,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "kimi-k2.5",
-          "apiModel": "kimi-k2.5",
+          "id": "moonshot/kimi-k2.5",
+          "apiModel": "moonshot/kimi-k2.5",
           "displayName": "[Kimi] Kimi K2.5",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1538,8 +1538,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "kimi-k2.6",
-          "apiModel": "kimi-k2.6",
+          "id": "moonshot/kimi-k2.6",
+          "apiModel": "moonshot/kimi-k2.6",
           "displayName": "[Kimi] Kimi K2.6",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1550,8 +1550,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "kimi-k2.7-code",
-          "apiModel": "kimi-k2.7-code",
+          "id": "moonshot/kimi-k2.7-code",
+          "apiModel": "moonshot/kimi-k2.7-code",
           "displayName": "[Kimi] Kimi K2.7 Code",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1562,8 +1562,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "kimi-k2.7-code-highspeed",
-          "apiModel": "kimi-k2.7-code-highspeed",
+          "id": "moonshot/kimi-k2.7-code-highspeed",
+          "apiModel": "moonshot/kimi-k2.7-code-highspeed",
           "displayName": "[Kimi] Kimi K2.7 Code Highspeed",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1574,8 +1574,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "kimi-k2-thinking",
-          "apiModel": "kimi-k2-thinking",
+          "id": "tongyi/kimi-k2-thinking",
+          "apiModel": "tongyi/kimi-k2-thinking",
           "displayName": "[Kimi] Kimi K2 Thinking",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1586,8 +1586,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "kimi-k3",
-          "apiModel": "kimi-k3",
+          "id": "moonshot/kimi-k3",
+          "apiModel": "moonshot/kimi-k3",
           "displayName": "[Kimi] Kimi K3",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1598,8 +1598,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "MiniMax-M2.5",
-          "apiModel": "MiniMax-M2.5",
+          "id": "minimax/MiniMax-M2.5",
+          "apiModel": "minimax/MiniMax-M2.5",
           "displayName": "[MiniMax] M2.5",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1610,8 +1610,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "MiniMax-M2.7",
-          "apiModel": "MiniMax-M2.7",
+          "id": "minimax/MiniMax-M2.7",
+          "apiModel": "minimax/MiniMax-M2.7",
           "displayName": "[MiniMax] M2.7",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1622,8 +1622,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "MiniMax-M3",
-          "apiModel": "MiniMax-M3",
+          "id": "minimax/MiniMax-M3",
+          "apiModel": "minimax/MiniMax-M3",
           "displayName": "[MiniMax] M3",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1658,8 +1658,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.5-122b-a10b",
-          "apiModel": "qwen3.5-122b-a10b",
+          "id": "tongyi/qwen3.5-122b-a10b",
+          "apiModel": "tongyi/qwen3.5-122b-a10b",
           "displayName": "[Qwen] Qwen3.5 122B-A10B",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1670,8 +1670,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.5-27b",
-          "apiModel": "qwen3.5-27b",
+          "id": "tongyi/qwen3.5-27b",
+          "apiModel": "tongyi/qwen3.5-27b",
           "displayName": "[Qwen] Qwen3.5 27B",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1682,8 +1682,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.5-35b-a3b",
-          "apiModel": "qwen3.5-35b-a3b",
+          "id": "tongyi/qwen3.5-35b-a3b",
+          "apiModel": "tongyi/qwen3.5-35b-a3b",
           "displayName": "[Qwen] Qwen3.5 35B-A3B",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1694,8 +1694,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.5-397b-a17b",
-          "apiModel": "qwen3.5-397b-a17b",
+          "id": "tongyi/qwen3.5-397b-a17b",
+          "apiModel": "tongyi/qwen3.5-397b-a17b",
           "displayName": "[Qwen] Qwen3.5 397B-A17B",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1706,8 +1706,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.5-flash",
-          "apiModel": "qwen3.5-flash",
+          "id": "tongyi/qwen3.5-flash",
+          "apiModel": "tongyi/qwen3.5-flash",
           "displayName": "[Qwen] Qwen3.5 Flash",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1718,8 +1718,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.5-omni-flash",
-          "apiModel": "qwen3.5-omni-flash",
+          "id": "tongyi/qwen3.5-omni-flash",
+          "apiModel": "tongyi/qwen3.5-omni-flash",
           "displayName": "[Qwen] Qwen3.5 Omni Flash",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1730,8 +1730,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.5-plus",
-          "apiModel": "qwen3.5-plus",
+          "id": "tongyi/qwen3.5-plus",
+          "apiModel": "tongyi/qwen3.5-plus",
           "displayName": "[Qwen] Qwen3.5 Plus",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1742,8 +1742,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.6-flash",
-          "apiModel": "qwen3.6-flash",
+          "id": "tongyi/qwen3.6-flash",
+          "apiModel": "tongyi/qwen3.6-flash",
           "displayName": "[Qwen] Qwen3.6 Flash",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1754,8 +1754,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.6-max-preview",
-          "apiModel": "qwen3.6-max-preview",
+          "id": "tongyi/qwen3.6-max-preview",
+          "apiModel": "tongyi/qwen3.6-max-preview",
           "displayName": "[Qwen] Qwen3.6 Max Preview",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1766,8 +1766,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.6-plus",
-          "apiModel": "qwen3.6-plus",
+          "id": "tongyi/qwen3.6-plus",
+          "apiModel": "tongyi/qwen3.6-plus",
           "displayName": "[Qwen] Qwen3.6 Plus",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1778,8 +1778,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.7-flash",
-          "apiModel": "qwen3.7-flash",
+          "id": "tongyi/qwen3.7-flash",
+          "apiModel": "tongyi/qwen3.7-flash",
           "displayName": "[Qwen] Qwen3.7 Flash",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1790,8 +1790,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.7-max",
-          "apiModel": "qwen3.7-max",
+          "id": "tongyi/qwen3.7-max",
+          "apiModel": "tongyi/qwen3.7-max",
           "displayName": "[Qwen] Qwen3.7 Max",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1802,8 +1802,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.7-plus",
-          "apiModel": "qwen3.7-plus",
+          "id": "tongyi/qwen3.7-plus",
+          "apiModel": "tongyi/qwen3.7-plus",
           "displayName": "[Qwen] Qwen3.7 Plus",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1814,8 +1814,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.8-flash",
-          "apiModel": "qwen3.8-flash",
+          "id": "tongyi/qwen3.8-flash",
+          "apiModel": "tongyi/qwen3.8-flash",
           "displayName": "[Qwen] Qwen3.8 Flash",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1826,8 +1826,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3.8-max",
-          "apiModel": "qwen3.8-max",
+          "id": "tongyi/qwen3.8-max",
+          "apiModel": "tongyi/qwen3.8-max",
           "displayName": "[Qwen] Qwen3.8 Max",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1838,8 +1838,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3-max",
-          "apiModel": "qwen3-max",
+          "id": "tongyi/qwen3-max",
+          "apiModel": "tongyi/qwen3-max",
           "displayName": "[Qwen] Qwen3 Max",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1850,8 +1850,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "qwen3-coder-plus",
-          "apiModel": "qwen3-coder-plus",
+          "id": "tongyi/qwen3-coder-plus",
+          "apiModel": "tongyi/qwen3-coder-plus",
           "displayName": "[Qwen] Qwen3 Coder Plus",
           "thinking": true,
           "thinkingLevel": "high",
@@ -1862,8 +1862,8 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "xai.grok-4.3",
-          "apiModel": "xai.grok-4.3",
+          "id": "oci/xai.grok-4.3",
+          "apiModel": "oci/xai.grok-4.3",
           "displayName": "[Grok] Grok 4.3",
           "thinking": true,
           "thinkingLevel": "high",

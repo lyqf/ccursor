@@ -1154,6 +1154,42 @@ export const DEFAULT_PROVIDERS = {
           "contextTokenLimit": 128000,
           "maxOutputTokens": 32000,
           "defaultOn": true
+        },
+        {
+          "id": "ppio/anthropic/claude-opus-5-5",
+          "apiModel": "ppio/anthropic/claude-opus-5-5",
+          "displayName": "[PPIO] Claude Opus 5.5",
+          "thinking": true,
+          "thinkingLevel": "xhigh",
+          "supportsAgent": true,
+          "supportsImages": true,
+          "contextTokenLimit": 1000000,
+          "maxOutputTokens": 32000,
+          "defaultOn": true
+        },
+        {
+          "id": "ppio/anthropic/claude-sonnet-5-5",
+          "apiModel": "ppio/anthropic/claude-sonnet-5-5",
+          "displayName": "[PPIO] Claude Sonnet 5.5",
+          "thinking": true,
+          "thinkingLevel": "xhigh",
+          "supportsAgent": true,
+          "supportsImages": true,
+          "contextTokenLimit": 1000000,
+          "maxOutputTokens": 32000,
+          "defaultOn": true
+        },
+        {
+          "id": "ppio/anthropic/claude-haiku-5-5",
+          "apiModel": "ppio/anthropic/claude-haiku-5-5",
+          "displayName": "[PPIO] Claude Haiku 5.5",
+          "thinking": true,
+          "thinkingLevel": "xhigh",
+          "supportsAgent": true,
+          "supportsImages": true,
+          "contextTokenLimit": 200000,
+          "maxOutputTokens": 32000,
+          "defaultOn": true
         }
       ]
     },

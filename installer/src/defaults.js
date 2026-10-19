@@ -1060,18 +1060,6 @@ export const DEFAULT_PROVIDERS = {
           "defaultOn": true
         },
         {
-          "id": "moonshot/kimi-k2.5",
-          "apiModel": "moonshot/kimi-k2.5",
-          "displayName": "[Kimi] Kimi K2.5",
-          "thinking": true,
-          "thinkingLevel": "xhigh",
-          "supportsAgent": true,
-          "supportsImages": false,
-          "contextTokenLimit": 128000,
-          "maxOutputTokens": 32000,
-          "defaultOn": true
-        },
-        {
           "id": "moonshot/kimi-k2.6",
           "apiModel": "moonshot/kimi-k2.6",
           "displayName": "[Kimi] Kimi K2.6",
@@ -2141,6 +2129,18 @@ export const DEFAULT_PROVIDERS = {
           "supportsAgent": true,
           "supportsImages": true,
           "contextTokenLimit": 204800,
+          "maxOutputTokens": 32000,
+          "defaultOn": true
+        },
+        {
+          "id": "xiaomi/Qwen-235B-A22B",
+          "apiModel": "xiaomi/Qwen-235B-A22B",
+          "displayName": "[Xiaomi] Qwen 235B A22B",
+          "thinking": true,
+          "thinkingLevel": "xhigh",
+          "supportsAgent": false,
+          "supportsImages": false,
+          "contextTokenLimit": 40960,
           "maxOutputTokens": 32000,
           "defaultOn": true
         },
